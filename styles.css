@@ -78,13 +78,19 @@ div > img:hover {
 }
 /* Album */
 .album-cover {
-  flex: 1 0 30%;
+  flex: 0 0 270px;
+  width: 270px;
+  height: 270px;
+  align-items: center;
+  overflow: hidden;
+
+
 }
 
 .album-cover img {
-  max-width: 250px;
+  object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -227,7 +233,7 @@ div > img:hover {
 /* Menu desplegable*/
 
 .track-selector {
-  width: 30%;
+  width: 100%;
   padding: 0.5rem;
   font-family: inherit;
   margin-bottom: 1rem;
@@ -240,6 +246,12 @@ div > img:hover {
 
 /* Responsive */
 @media all and (max-width: 960px) {
+  body{
+    height: auto;
+  }
+  
+  
+  
   .c-containter {
     display: flex;
     flex-direction: column;
@@ -248,6 +260,7 @@ div > img:hover {
 
   .music-container {
     flex-direction: column;
+    align-items: center;
     max-width: 270px;
     max-height: none;
     min-height: auto;
