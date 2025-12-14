@@ -3,11 +3,11 @@
     {
       id: 1,
       url:
-        "/audios/Podcast-La-Perla.mp3",
-      author: "Marcel Pequel",
-      title: "La Perla",
+        "audios/Podcast-La-Perla.mp3",
+      author: "Chelias Villarroel",
+      title: "La Perla (episodio 1)",
       cover:
-        "/imagenes/Chelias2.jpg"
+        "imagenes/Chelias2.jpg"
     },
     {
       id: 2,
@@ -300,4 +300,5 @@
   });
 
   init();
+
 })();
