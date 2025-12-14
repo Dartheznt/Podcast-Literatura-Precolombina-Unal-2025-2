@@ -5,7 +5,7 @@
       url:
         "https://raw.githubusercontent.com/Dartheznt/Podcast-Literatura-Precolombina-Unal-2025-2/main/audios/Podcast-La-Perla.mp3",
       author: "Chelias Villarroel",
-      title: "La Perla (episodio 1)",
+      title: "La Perla",
       cover:
         "https://dartheznt.github.io/Podcast-Literatura-Precolombina-Unal-2025-2/imagenes/Chelias2.jpg"
     },
@@ -302,6 +302,7 @@
   init();
 
 })();
+
 
 
 
